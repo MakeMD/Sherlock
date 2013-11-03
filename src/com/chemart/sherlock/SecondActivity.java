@@ -46,7 +46,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 	        		image.setImageResource(R.drawable.ehwaz);
 	        		text.setText(R.string.ehwaz_down);
-	        		name.setText("Эйваз (перевернутое положение)");
+	        		name.setText("Эйваз (перевернутое)");
 	        		bMap = BitmapFactory.decodeResource(getResources(), R.drawable.ehwaz);
 	        		bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 	        		image.setImageBitmap(bMapRotate);
@@ -60,7 +60,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 		        	image.setImageResource(R.drawable.uruz);
 		        	text.setText(R.string.uruz_down);
-		        	name.setText("Уруз (перевернутое положение)");
+		        	name.setText("Уруз (перевернутое)");
 		        	bMap = BitmapFactory.decodeResource(getResources(), R.drawable.uruz);
 		        	bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -85,7 +85,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.algiz);
 		    	    text.setText(R.string.algiz_down);
-		    	    name.setText("Алгиз (перевернутое положение)");
+		    	    name.setText("Алгиз (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.algiz);
 		        	bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -100,7 +100,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.raido);
 		    	    text.setText(R.string.raido_down);
-		    	    name.setText("Райдо (перевернутое положение)");
+		    	    name.setText("Райдо (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.raido);
 		        	bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -115,7 +115,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.nauthiz);
 		    	    text.setText(R.string.nauthiz_down);
-		    	    name.setText("Наутиз (перевернутое положение)");
+		    	    name.setText("Наутиз (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.nauthiz);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -130,7 +130,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.wunjo);
 		    	    text.setText(R.string.wunjo_down);
-		    	    name.setText("Вуньо (перевернутое положение)");
+		    	    name.setText("Вуньо (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.wunjo);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -145,7 +145,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.kano);
 		    	    text.setText(R.string.kano_down);
-		    	    name.setText("Кано (перевернутое положение)");
+		    	    name.setText("Кано (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.kano);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -172,7 +172,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.perth);
 		    	    text.setText(R.string.perth_down);
-		    	    name.setText("Перт (перевернутое положение)");
+		    	    name.setText("Перт (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.perth);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -187,7 +187,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.fehu);
 		    	    text.setText(R.string.fehu_down);
-		    	    name.setText("Феу (перевернутое положение)");
+		    	    name.setText("Феу (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.fehu);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -202,7 +202,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.ansuz);
 		    	    text.setText(R.string.ansuz_down);
-		    	    name.setText("Асуз (перевернутое положение)");
+		    	    name.setText("Асуз (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.ansuz);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -217,7 +217,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.mannaz);
 		    	    text.setText(R.string.mannaz_down);
-		    	    name.setText("Беркана (перевернутое положение)");
+		    	    name.setText("Манназ (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.mannaz);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -232,7 +232,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.berkana);
 		    	    text.setText(R.string.berkana_down);
-		    	    name.setText("Эйваз (перевернутое положение)");
+		    	    name.setText("Эйваз (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.berkana);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -247,7 +247,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.teivaz);
 		    	    text.setText(R.string.teivaz_down);
-		    	    name.setText("Тейваз (перевернутое положение)");
+		    	    name.setText("Тейваз (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.teivaz);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -268,7 +268,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.laguz);
 		    	    text.setText(R.string.laguz_down);
-		    	    name.setText("Лагуз (перевернутое положение)");
+		    	    name.setText("Лагуз (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.laguz);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
@@ -289,7 +289,7 @@ public class SecondActivity extends Activity {
 	        		//перевернутые
 			        image.setImageResource(R.drawable.othilia);
 		    	    text.setText(R.string.othilia_down);
-		    	    name.setText("Отал (перевернутое положение)");
+		    	    name.setText("Отал (перевернутое)");
 		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.othilia);
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
