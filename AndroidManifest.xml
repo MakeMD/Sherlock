@@ -25,6 +25,21 @@
         <activity android:name="com.chemart.sherlock.SecondActivity"
     android:label="@string/activity_second">
 </activity>
-    </application>
+
+<receiver
+ android:name="widget"
+ android:icon="@drawable/ic_launcher"
+ android:label="@string/app_name">
+<intent-filter>
+<action
+ android:name="android.appwidget.action.APPWIDGET_UPDATE">
+</action>
+</intent-filter>
+<meta-data
+ android:name="android.appwidget.provider"
+ android:resource="@xml/widget_metadata">
+</meta-data>
+</receiver>        
+        </application>
 
 </manifest>
