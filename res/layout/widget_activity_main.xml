@@ -4,42 +4,45 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
-    android:gravity="clip_vertical"
+    android:gravity="left"
     android:padding="5dp"
     android:paddingBottom="5dp"
     android:paddingRight="5dp"
     android:paddingTop="5dp" >
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView1"
-        android:layout_alignRight="@+id/imageView1"
-        android:layout_alignTop="@+id/imageView1"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@+id/imageView2"
-        android:text="@string/wunjo_up" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView1"
-        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
         android:layout_marginBottom="10dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:src="@drawable/wunjo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:text="@string/wunjo_up" 
+        android:textColor="@drawable/text_color"
+        android:gravity="center"/>
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:contentDescription="TODO"
         android:src="@drawable/widge" />
 
