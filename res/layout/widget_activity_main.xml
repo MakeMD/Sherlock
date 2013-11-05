@@ -10,18 +10,6 @@
     android:paddingRight="5dp"
     android:paddingTop="5dp" >
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignTop="@+id/imageView1"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/wunjo" />
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -33,9 +21,13 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@+id/imageView2"
-        android:text="@string/wunjo_up" 
-        android:textColor="@drawable/text_color"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:shadowColor="@android:color/background_dark"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="@string/wunjo_down_wd"
+        android:textColor="@drawable/text_color" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -45,5 +37,18 @@
         android:layout_alignParentTop="true"
         android:contentDescription="TODO"
         android:src="@drawable/widge" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/wunjo_wd" />
 
 </RelativeLayout>
