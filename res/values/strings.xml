@@ -5,7 +5,9 @@
     <string name="action_settings">Выход</string>
     <string name="activity_second">Значение руны</string>
     <string name="img_button">Image button</string>
-    <string name="ehwaz_up_wd"><b>Руна перемен. Движение прогресса. </b>\n Постепенные перемен к лучшему</string>
+    <string name="ehwaz_up_wd"> 
+        <b>Руна перемен. Движение прогресса.</b> \n Постепенные перемен к лучшему
+    </string>
     <string name="ehwaz_up">
 	<b>Руна перемен. Движение прогресса. </b>\n\n
 	У этого знака два взаимосвязанных аспекта.

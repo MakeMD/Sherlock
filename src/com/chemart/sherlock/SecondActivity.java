@@ -4,7 +4,7 @@ package com.chemart.sherlock;
 import java.util.Random;
 
 import android.app.Activity;
-//import android.content.Intent;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
@@ -29,8 +29,9 @@ public class SecondActivity extends Activity {
 	        Matrix matrix=new Matrix();
 	        Bitmap bMapRotate;
 	        i = myRandom.nextInt(40);
+	        //intent.putExtra("runa", i);
 	        //r = getIntent().getIntExtra("runa", 2);
-	        text = (TextView) findViewById(R.id.textView1);
+	        text = (TextView) findViewById(R.id.textViewInWidget);
 	        name = (TextView) findViewById(R.id.textView2);
 	        image = (ImageView) findViewById(R.id.imageView1);
 	        Bitmap bMap;

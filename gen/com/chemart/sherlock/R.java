@@ -111,9 +111,9 @@ public final class R {
         public static final int action_settings=0x7f09001e;
         public static final int imageButton1=0x7f09000e;
         public static final int imageView1=0x7f09001a;
-        public static final int imageView2=0x7f09001c;
-        public static final int textView1=0x7f09001b;
+        public static final int imageViewInWidget=0x7f09001c;
         public static final int textView2=0x7f09001d;
+        public static final int textViewInWidget=0x7f09001b;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
