@@ -4,7 +4,6 @@ package com.chemart.sherlock;
 import java.util.Random;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
@@ -18,25 +17,25 @@ import android.widget.TextView;
 
 public class SecondActivity extends Activity {
 	   	int i=0;
-	    //int r=0;
 	    TextView text,name;
 	    ImageView image;
 	   protected void onCreate(Bundle savedInstanceState) 
 	    {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.activity_second);
+	        //генерируем рандомное число
 	        final Random myRandom = new Random();
+	        i = myRandom.nextInt(41);
+	        //
 	        Matrix matrix=new Matrix();
+	        matrix.postRotate(180);
 	        Bitmap bMapRotate;
-	        i = myRandom.nextInt(40);
-	        //intent.putExtra("runa", i);
-	        //r = getIntent().getIntExtra("runa", 2);
+	        Bitmap bMap;
 	        text = (TextView) findViewById(R.id.textViewInWidget);
 	        name = (TextView) findViewById(R.id.textView2);
 	        image = (ImageView) findViewById(R.id.imageView1);
-	        Bitmap bMap;
-	        matrix.postRotate(180);
 	        text.setMovementMethod(new ScrollingMovementMethod());
+	        //делаем выбор на основе сгенерированного числа
 	        switch (i){
 	        	case 0:
 		        image.setImageResource(R.drawable.ehwaz);
@@ -48,6 +47,7 @@ public class SecondActivity extends Activity {
 	        		image.setImageResource(R.drawable.ehwaz);
 	        		text.setText(R.string.ehwaz_down);
 	        		name.setText("Ёйваз (перевернутое)");
+	        		//переворачиваем картинку внутри ImagView
 	        		bMap = BitmapFactory.decodeResource(getResources(), R.drawable.ehwaz);
 	        		bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 	        		image.setImageBitmap(bMapRotate);
@@ -295,23 +295,35 @@ public class SecondActivity extends Activity {
 		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
 		            image.setImageBitmap(bMapRotate);
 		    	    break;
-	        	case 37:
+	        	case 36:
 		    	image.setImageResource(R.drawable.dagaz);
 		    	text.setText(R.string.dagaz);
 		    	name.setText("ƒагаз");
 	        	
 		    	break;
-	        	case 38:
+	        	case 37:
 	        	image.setImageResource(R.drawable.weird);
 		    	text.setText(R.string.weird);
 		    	name.setText("ќдин");
 	        	break;
-	        	case 39:
+	        	case 38:
 			        image.setImageResource(R.drawable.eihwaz);
 				    text.setText(R.string.eihwaz);
 				    name.setText("Ёйваз");
 			        break;
-
+	        	case 39:
+			        image.setImageResource(R.drawable.thurisaz);
+				    text.setText(R.string.thurisaz_up);
+				    name.setText("“урисаз");
+			        break;
+	        	case 40:
+	        		image.setImageResource(R.drawable.thurisaz);
+		    	    text.setText(R.string.thurisaz_down);
+		    	    name.setText("“урисаз (перевернутое)");
+		    	    bMap = BitmapFactory.decodeResource(getResources(), R.drawable.thurisaz);
+		    	    bMapRotate = Bitmap.createBitmap(bMap, 0, 0, bMap.getWidth(), bMap.getHeight(), matrix, true);
+		            image.setImageBitmap(bMapRotate);
+		            break;
 	        	    
 	        }	                       
 	    }
@@ -319,6 +331,7 @@ public class SecondActivity extends Activity {
 	   
 	   
 	   public void onClick(View v){
+//выход из активити
 		   finish();
 	  }
 }
