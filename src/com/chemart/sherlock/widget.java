@@ -11,6 +11,7 @@ import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.util.Log;
 import android.widget.RemoteViews;
 
@@ -85,6 +86,7 @@ import android.widget.RemoteViews;
 		    thisWidget = new ComponentName(context, widget.class);
 		    //генерируем андомное число
 		    int i = myRandom.nextInt(41);
+		    
 		    //делаем выбор значений remoteViews на основе рандомного числа
 		    switch (i){
 case 0:
@@ -98,74 +100,74 @@ case 1:
 case 2:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.uruz_up_wd));
 	remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.uruz_wd);
-	        break;
+    break;
 case 3:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.uruz_down_wd));
 	remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.uruz_down_wd);	        	
-	        	break;
+  	break;
 case 4:
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.gebo_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.gebo_wd);
+	break;
+case 5:
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.hagalaz_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.hagalaz_wd);
+	break;
+case 6:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.algiz_up_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.algiz_wd);	        	
-	        	break;
-case 5:
+   	break;
+case 7:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.algiz_down_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.algiz_down_wd);
 	break;
-case 6:
+case 8:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.raido_up_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.raido_wd);
 	break;
-case 7:
+case 9:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.raido_down_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.raido_down_wd);
 	break;
-case 8:
+case 10:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.nauthiz_up_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.nauthiz_wd);
 	break;
-case 9:
+case 11:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.nauthiz_down_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.nauthiz_down_wd);
 	break;
-case 10:
+case 12:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.wunjo_up_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.wunjo_wd);
 	break;
-case 11:
+case 13:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.wunjo_down_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.wunjo_down_wd);
 	break;
-case 12:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.teivaz_up_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.teivaz_wd);
-	break;
-case 13:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.teivaz_down_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.teivaz_down_wd);
-	break;
 case 14:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.berkana_up_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.berkana_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.kano_up_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.kano_wd);
 	break;
 case 15:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.berkana_down_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.berkana_down_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.kano_down_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.kano_down_wd);
 	break;
 case 16:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.mannaz_up_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.mannaz_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.isa_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.isa_wd);
 	break;
 case 17:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.mannaz_down_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.mannaz_down_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.jera_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.jera_wd);
 	break;
 case 18:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.ansuz_up_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.ansuz_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.perth_up_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.perth_wd);
 	break;
 case 19:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.ansuz_down_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.ansuz_down_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.perth_down_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.perth_down_wd);
 	break;
 case 20:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.fehu_up_wd));
@@ -176,72 +178,72 @@ case 21:
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.fehu_down_wd);
 	break;
 case 22:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.perth_up_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.perth_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.ansuz_up_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.ansuz_wd);
 	break;
 case 23:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.perth_down_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.perth_down_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.ansuz_down_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.ansuz_down_wd);
 	break;
 case 24:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.kano_up_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.kano_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.mannaz_up_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.mannaz_wd);
 	break;
 case 25:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.kano_down_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.kano_down_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.mannaz_down_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.mannaz_down_wd);
 	break;
 case 26:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.othilia_up_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.othilia_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.berkana_up_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.berkana_wd);
 	break;
 case 27:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.othilia_down_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.othilia_down_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.berkana_down_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.berkana_down_wd);
 	break;
 case 28:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.laguz_up_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.laguz_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.teivaz_up_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.teivaz_wd);
 	break;
 case 29:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.laguz_down_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.laguz_down_wd);
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.teivaz_down_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.teivaz_down_wd);
 	break;
 case 30:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.gebo_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.gebo_wd);
-	break;
-case 31:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.isa_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.isa_wd);
-	break;
-case 32:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.jera_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.jera_wd);
-	break;
-case 33:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.sowelu_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.sowelu_wd);
 	break;
-case 34:
+case 31:
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.laguz_up_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.laguz_wd);
+	break;
+case 32:
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.laguz_down_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.laguz_down_wd);
+	break;
+case 33:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.inguz_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.inguz_wd);
 	break;
+case 34:
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.othilia_up_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.othilia_wd);
+	break;
 case 35:
+	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.othilia_down_wd));
+    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.othilia_down_wd);
+	break;
+case 36:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.dagaz_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.dagaz_wd);
 	break;
-case 36:
+case 37:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.weird_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.weird_wd);
 	break;
-case 37:
+case 38:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.eihwaz_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.eihwaz_wd);
-	break;
-case 38:
-	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.hagalaz_wd));
-    remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.hagalaz_wd);
 	break;
 case 39:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.thurisaz_wd));
@@ -251,19 +253,20 @@ case 40:
 	remoteViews.setTextViewText(R.id.textViewInWidget, context.getString(R.string.thurisaz_down_wd));
     remoteViews.setImageViewResource(R.id.imageViewInWidget, R.drawable.thurisaz_down_wd);
 	break;
-	
 	        }
 	        AppWidgetManager manager = AppWidgetManager.getInstance(context);
 	        manager.updateAppWidget(thisWidget, remoteViews);
 	        //PendingIntent pending = PendingIntent.getBroadcast(context, 0, updateWidget, PendingIntent.FLAG_CANCEL_CURRENT);
 	        //pending.send();
 	      //  Log.d(LOG_TAG, "onUpdate " + Arrays.toString(appWidgetIds));
+	        
 	        RemoteViews remoteViews2 = new RemoteViews(context.getPackageName(), R.layout.widget_activity_main);
-		    Intent configIntent = new Intent(context, MainActivity.class);
-
-		    PendingIntent configPendingIntent = PendingIntent.getActivity(context, 0, configIntent, 0);
-
+		    Intent configIntent = new Intent(context, ThirdActivity.class);
+		    configIntent.putExtra("runa", i);
+		    PendingIntent configPendingIntent = PendingIntent.getActivity(context, i, configIntent, 0);
+		    
 		    remoteViews2.setOnClickPendingIntent(R.id.textViewInWidget, configPendingIntent);
+		    
 		    appWidgetManager.updateAppWidget(appWidgetID, remoteViews2);  
 	}
 	}

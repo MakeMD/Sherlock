@@ -39,7 +39,8 @@
  android:name="android.appwidget.provider"
  android:resource="@xml/widget_metadata">
 </meta-data>
-</receiver>        
+</receiver>
+<activity android:name="com.chemart.sherlock.ThirdActivity" android:label="@string/third_activity"></activity>        
         </application>
 
 </manifest>

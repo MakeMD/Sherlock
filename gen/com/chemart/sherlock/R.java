@@ -137,7 +137,8 @@ public final class R {
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_second=0x7f030001;
-        public static final int widget_activity_main=0x7f030002;
+        public static final int activity_third=0x7f030002;
+        public static final int widget_activity_main=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -225,6 +226,7 @@ public final class R {
         public static final int teivaz_down_wd=0x7f06003e;
         public static final int teivaz_up=0x7f06003d;
         public static final int teivaz_up_wd=0x7f06003c;
+        public static final int third_activity=0x7f06005c;
         public static final int thurisaz_down=0x7f060055;
         public static final int thurisaz_down_wd=0x7f060054;
         public static final int thurisaz_up=0x7f060053;
