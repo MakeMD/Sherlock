@@ -1,9 +1,8 @@
 package com.chemart.sherlock;
 
 
-import java.util.Random;
-
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
@@ -16,17 +15,14 @@ import android.widget.TextView;
 
 
 public class SecondActivity extends Activity {
-	   	int i=0;
 	    TextView text,name;
 	    ImageView image;
 	   protected void onCreate(Bundle savedInstanceState) 
 	    {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.activity_second);
-	        //генерируем рандомное число
-	        final Random myRandom = new Random();
-	        i = myRandom.nextInt(41);
-	        //
+	        Intent newintent = getIntent();
+	        int r = newintent.getIntExtra("mainruna", 0);
 	        Matrix matrix=new Matrix();
 	        matrix.postRotate(180);
 	        Bitmap bMapRotate;
@@ -36,7 +32,7 @@ public class SecondActivity extends Activity {
 	        image = (ImageView) findViewById(R.id.imageView1);
 	        text.setMovementMethod(new ScrollingMovementMethod());
 	        //делаем выбор на основе сгенерированного числа
-	        switch (i){
+	        switch (r){
 	        	case 0:
 		        image.setImageResource(R.drawable.ehwaz);
 		        text.setText(R.string.ehwaz_up);

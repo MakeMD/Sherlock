@@ -11,7 +11,6 @@ import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
 import android.util.Log;
 import android.widget.RemoteViews;
 
@@ -256,9 +255,6 @@ case 40:
 	        }
 	        AppWidgetManager manager = AppWidgetManager.getInstance(context);
 	        manager.updateAppWidget(thisWidget, remoteViews);
-	        //PendingIntent pending = PendingIntent.getBroadcast(context, 0, updateWidget, PendingIntent.FLAG_CANCEL_CURRENT);
-	        //pending.send();
-	      //  Log.d(LOG_TAG, "onUpdate " + Arrays.toString(appWidgetIds));
 	        
 	        RemoteViews remoteViews2 = new RemoteViews(context.getPackageName(), R.layout.widget_activity_main);
 		    Intent configIntent = new Intent(context, ThirdActivity.class);

@@ -2,6 +2,8 @@ package com.chemart.sherlock;
 
 
 
+import java.util.Random;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -23,8 +25,11 @@ public class MainActivity extends Activity {
 	public void onClick(View v)
 	{
 	//при выборе любой из рун, запускаем второе активити
+		final Random myRandom = new Random();
+        int i = myRandom.nextInt(41);
 		Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-	    startActivity(intent);
+	    intent.putExtra("mainruna", (int) i);
+		startActivity(intent);
 	}
 
 	@Override

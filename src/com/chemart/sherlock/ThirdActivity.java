@@ -1,8 +1,6 @@
 package com.chemart.sherlock;
 
 
-import java.util.Random;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
