@@ -40,6 +40,7 @@ import android.widget.RemoteViews;
 	      int[] appWidgetIds) {
 	    super.onUpdate(context, appWidgetManager, appWidgetIds);
 	    Log.d(LOG_TAG, "onUpdate " + Arrays.toString(appWidgetIds));
+	 
 	  }
 
 	  @Override
@@ -257,6 +258,12 @@ case 40:
 	        //PendingIntent pending = PendingIntent.getBroadcast(context, 0, updateWidget, PendingIntent.FLAG_CANCEL_CURRENT);
 	        //pending.send();
 	      //  Log.d(LOG_TAG, "onUpdate " + Arrays.toString(appWidgetIds));
-	        
+	       // RemoteViews remoteViews2 = new RemoteViews(context.getPackageName(), R.layout.widget_activity_main);
+		    //Intent configIntent = new Intent(context, MainActivity.class);
+
+		    //PendingIntent configPendingIntent = PendingIntent.getActivity(context, 0, configIntent, 0);
+
+		    //remoteViews2.setOnClickPendingIntent(R.id.textViewInWidget, configPendingIntent);
+		    //appWidgetManager.updateAppWidget(appWidgetID, remoteViews2);  
 	}
 	}
