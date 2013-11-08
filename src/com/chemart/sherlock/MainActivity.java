@@ -24,10 +24,11 @@ public class MainActivity extends Activity {
 	
 	public void onClick(View v)
 	{
-	//при выборе любой из рун, запускаем второе активити
+	//генерируем случайное число 
 		final Random myRandom = new Random();
         int i = myRandom.nextInt(41);
-		Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+      //при выборе любой из рун, запускаем второе активити
+        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
 	    intent.putExtra("mainruna", (int) i);
 		startActivity(intent);
 	}

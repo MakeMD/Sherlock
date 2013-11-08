@@ -738,5 +738,5 @@
     <string name="Runa_name">Thurisaz</string>
     <string name="Runa_description">Some descriotions of runa</string>
     <drawable name="bkg_wd">#000000</drawable>
-    <string name="third_activity">Description of runa</string>
+    <string name="third_activity">Описание руны</string>
 </resources>

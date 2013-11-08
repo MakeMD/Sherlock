@@ -31,7 +31,7 @@ public class SecondActivity extends Activity {
 	        name = (TextView) findViewById(R.id.textView2);
 	        image = (ImageView) findViewById(R.id.imageView1);
 	        text.setMovementMethod(new ScrollingMovementMethod());
-	        //делаем выбор на основе сгенерированного числа
+	        //делаем выбор на основе сгенерированного числа из MainActivity
 	        switch (r){
 	        	case 0:
 		        image.setImageResource(R.drawable.ehwaz);
