@@ -26,7 +26,8 @@
         android:shadowDx="1"
         android:shadowDy="1"
         android:shadowRadius="2"
-        android:textColor="@drawable/text_color" />
+        android:textColor="@drawable/text_color"
+        android:textSize="11sp" />
 
     <ImageView
         android:id="@+id/imageView1"

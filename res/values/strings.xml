@@ -8,7 +8,7 @@
     
     <!--  Описание рун -->
     <string name="ehwaz_up_wd"> 
-        <b>Rune of change</b> \n Gradual change for the better
+        <b>Rune of change</b>
     </string>
     <string name="ehwaz_up">
 		<b>Rune of change. The movement of progress. </b>\n\n
@@ -20,8 +20,8 @@ Face the future with confident expectation that all will be well.
 This Rune can represent a partner, either in business or in romance.     
      </string>
 	<string name="ehwaz_down_wd">
-	    <b>Rune obstacles</b>\n 
-	   The movement stalled
+	    <b>Rune obstacles</b> 
+	   
 	</string>
     <string name="ehwaz_down">
     	<b>Rune obstacles</b>\n\n
@@ -30,8 +30,8 @@ A blockage in the force embodied by Ehwaz can result in disharmony,
 separation, divorce and betrayal.
     </string>
     <string name="uruz_up_wd">
-        <b>Rune of the new form</b>\n 
-       Let the new force in your life
+        <b>Rune of the new form</b>
+       
 	</string>
     <string name="uruz_up">
         <b>Rune of the new form</b>\n\n
@@ -44,8 +44,8 @@ separation, divorce and betrayal.
         Prepare for an opportunity disguised as a loss.
     </string>
     <string name="uruz_down_wd">
-        <b>Rune disorganization Force</b>\n
-		You can understand the reason for the loss of power
+        <b>Rune disorganization Force</b>
+		
 	</string>
     <string name="uruz_down">
         <b>Rune disorganization Force</b>\n\n
@@ -59,8 +59,8 @@ separation, divorce and betrayal.
         point to again have this choice.
     </string>
     <string name="gebo_wd">
-        <b>Rune partnership</b>\n	
-        Strive for unity  
+        <b>Rune partnership</b>	
+          
 	</string>
         <string name="gebo">
         <b>Rune partnership</b>\n\n
@@ -76,8 +76,8 @@ separation, divorce and betrayal.
         It can symbolize the disruption of a family or a friendship.
     </string>
 	<string name="hagalaz_wd">
-		<b>Rune complete break</b>\n
-		Events beyond your control
+		<b>Rune complete break</b>
+		
 	</string>
 	<string name="hagalaz">
         <b>Rune complete break</b>\n\n
@@ -98,8 +98,8 @@ separation, divorce and betrayal.
         While crisis may not be totally avoided, it can be controlled.
     </string>
 	<string name="algiz_up_wd">
-	    <b>Rune of protection</b>\n 
-	    Foreshadows a twist of fate
+	    <b>Rune of protection</b> 
+	    
 	</string>
 	<string name="algiz_up">
         <b>Rune of protection</b>\n\n
@@ -112,8 +112,8 @@ separation, divorce and betrayal.
          It can foretell an awakening of craft and cunning in the individual.
     </string>
 	<string name="algiz_down_wd">
-	    <b>Rune of flexibility</b>\n 
-	    Be flexible
+	    <b>Rune of flexibility</b> 
+	    
 	</string>
 	<string name="algiz_down">
         <b>Rune of flexibility</b>\n\n
@@ -125,7 +125,7 @@ separation, divorce and betrayal.
     </string>
 	<string name="raido_up_wd">
 	    <b>Rune of a way</b> 
-	    Trust the course of events
+	    
 	</string>
 	<string name="raido_up">
         <b>Rune of a way</b>\n\n
@@ -138,8 +138,8 @@ separation, divorce and betrayal.
 		Ask guidance from the Divine, and know that you will be led to the right action.         
     </string>
 	<string name="raido_down_wd">
-	    <b>Rune of surprises</b>\n 
-	    Mindfulness manifest throughout
+	    <b>Rune of surprises</b> 
+	    
 	</string>
 	<string name="raido_down">
         <b>Rune of surprises</b>\n\n
@@ -150,8 +150,8 @@ separation, divorce and betrayal.
 		be opportunities in disguise.       
     </string>
 	<string name="nauthiz_up_wd">
-	    <b>Rune of retardation</b>\n 
-	    Now a dark time for you
+	    <b>Rune of retardation</b> 
+	    
 	</string>
 	<string name="nauthiz_up">
         <b>Rune of retardation</b>\n\n
@@ -169,8 +169,8 @@ separation, divorce and betrayal.
 		 a laborer or farmer, or it can stand for a magician or mage.        
     </string>
 	<string name="nauthiz_down_wd">
-	    <b>Rune of inner evil</b>\n 
-	    Should think twice
+	    <b>Rune of inner evil</b> 
+	    
 	</string>
 	<string name="nauthiz_down">
         <b>Rune of inner evil</b>\n\n
@@ -186,8 +186,8 @@ separation, divorce and betrayal.
 		a major mistake, leading to a weakening of one’s character.         
     </string>
 	<string name="wunjo_up_wd">
-	    <b>Rune of joy</b>\n  
-	    End of a period of darkness
+	    <b>Rune of joy</b>  
+	    
 	</string>
 	<string name="wunjo_up">
         <b>Rune of joy</b>\n\n
@@ -200,8 +200,8 @@ separation, divorce and betrayal.
 		as less desirable than they appeared with a more limited understanding.
     </string>
 	<string name="wunjo_down_wd">
-	    <b>Rune of crisis</b>\n 
-	    Movement through the "dark water"
+	    <b>Rune of crisis</b> 
+	    
 	</string>
 	<string name="wunjo_down">
         <b>Rune of crisis</b>\n\n
@@ -214,8 +214,8 @@ separation, divorce and betrayal.
 		strife and alienation, may be forthcoming.       
     </string>
 	<string name="kano_up_wd">
-	    <b>Rune of clarity</b>\n  
-	    Pass the light in your life  
+	    <b>Rune of clarity</b>  
+	      
 	</string>
 	<string name="kano_up">
         <b>Rune of renewed clarity</b>\n\n
@@ -227,8 +227,8 @@ separation, divorce and betrayal.
 		This can portend a change, a transformation, perhaps a child.
     </string>
 	<string name="kano_down_wd">
-	    <b>Rune of defilements</b>\n 
-	   The destruction aspect of your personality
+	    <b>Rune of defilements</b> 
+	   
 	</string>
 	<string name="kano_down">
         <b>Rune of defilements</b>\n\n
@@ -237,8 +237,8 @@ separation, divorce and betrayal.
 		Give up the old gladly, so that the new can be welcomed.  
     </string>
 	<string name="isa_wd">
-	    <b>Rune of stagnation</b>\n 
-	    Be discreet patience
+	    <b>Rune of stagnation</b> 
+	   
 	</string>
 	<string name="isa">
         <b>Rune of stagnation</b>\n\n
@@ -263,8 +263,8 @@ separation, divorce and betrayal.
 		trifles and ignoring the more urgent and significant problems.
     </string>
 	<string name="jera_wd">
-	    <b>Rune of a favorable outcome</b>\n
-	     Approximation of a favorable outcome
+	    <b>Rune of a favorable outcome</b>
+	   
 	</string>
 	<string name="jera">
         <b>Rune of a favorable outcome</b>\n\n
@@ -281,8 +281,8 @@ separation, divorce and betrayal.
 		There may be a tendency to be enslaved by routine, trapped in old habits. 
     </string>
 	<string name="perth_up_wd">
-	    <b>Rune of search</b>\n 
-	    Advanced search
+	    <b>Rune of search</b> 
+	   
 	</string>
 	<string name="perth_up">
         <b>Rune of search</b>\n\n
@@ -293,8 +293,8 @@ separation, divorce and betrayal.
 	It may represent an entertainer, a musician, or a bard.        
     </string>
 	<string name="perth_down_wd">
-	    <b>Rune of death last</b>\n 
-	   Let go of the past
+	    <b>Rune of death last</b> 
+	   
 	</string>
 	<string name="perth_down">
         <b>Rune of death last</b>\n\n
@@ -304,8 +304,8 @@ separation, divorce and betrayal.
 	while a blockage leads to stultification and stagnation.         
     </string>
 	<string name="fehu_up_wd">
-	    <b>Rune of acquisition</b>\n 
-	    Acquisition of tangible property
+	    <b>Rune of acquisition</b> 
+	   
 	</string>
 	<string name="fehu_up">
 		<b>Rune of the acquisition or retention</b>\n\n
@@ -318,8 +318,8 @@ separation, divorce and betrayal.
 		nourishing others can you be truly nourished       
     </string>
     <string name="fehu_down_wd">
-        <b>Rune of alienation</b>\n 
-        Occurrence of difficult situations
+        <b>Rune of alienation</b> 
+       
 	</string>
 	<string name="fehu_down">
         <b>Rune of alienation</b>\n\n
@@ -332,8 +332,8 @@ separation, divorce and betrayal.
 		Control your energies and resources, using them with wisdom.       
     </string>
     <string name="ansuz_up_wd">
-		<b>Rune of obtain</b>\n 
-		You will find Lucky Strike
+		<b>Rune of obtain</b> 
+		
 	</string>
 	<string name="ansuz_up">
         <b>Rune of obtain</b>\n\n
@@ -344,8 +344,8 @@ separation, divorce and betrayal.
 		A connection with the Divine, or the inner self, may be at hand.   
     </string>
 	<string name="ansuz_down_wd">
-	    <b>Rune of futility</b>\n 
-	    Overcome your despondency
+	    <b>Rune of futility</b> 
+	    
 	</string>
 	<string name="ansuz_down">
         <b>Rune of futility</b>\n\n
@@ -358,7 +358,7 @@ separation, divorce and betrayal.
     </string>
 	<string name="mannaz_up_wd">
 	    <b>Rune of own "I"</b> 
-	    Modesty and no frills
+	    
 	</string>
 	<string name="mannaz_up">
         <b>Rune of own "I"</b>\n\n
@@ -372,8 +372,8 @@ separation, divorce and betrayal.
 		it most often stands for a seeker after wisdom.       
     </string>
     <string name="mannaz_down_wd">
-        <b>Rune of internal enemy</b>\n
-       Your development ran into a barrier
+        <b>Rune of internal enemy</b>
+       
 	</string>
 	<string name="mannaz_down">
         <b>Rune of internal enemy</b>\n\n
@@ -388,8 +388,8 @@ separation, divorce and betrayal.
 		or dwell in fantasy rather than reality.     
     </string>
 	<string name="berkana_up_wd">
-	    <b>Rune of growth</b>\n 
-	    The onset of the growing season
+	    <b>Rune of growth</b> 
+	   
 	</string>
 	<string name="berkana_up">
         <b>Rune of growth</b>\n\n
@@ -405,7 +405,7 @@ the Mother and the Crone.
     </string>
 	<string name="berkana_down_wd">
 	    <b>Rune difficulties of growth</b>
-	    Something is preventing your growth
+	   
 	</string>
 	<string name="berkana_down">
         <b>Rune difficulties of growth</b>\n\n
@@ -415,8 +415,8 @@ the Mother and the Crone.
 		Beware of deceit, and do not rely totally on appearances.   
     </string>
 	<string name="teivaz_up_wd">
-	    <b>Rune of formation</b>\n 
-	   Show persistence and patience
+	    <b>Rune of formation</b>
+	   
 	</string>
 	<string name="teivaz_up">
         <b>Rune of formation</b>\n\n
@@ -432,8 +432,8 @@ the Mother and the Crone.
 	 philosopher or scholar.        
     </string>
 	<string name="teivaz_down_wd">
-	    <b>Rune of energy loss</b>\n 
-	    The loss of strength and energy
+	    <b>Rune of energy loss</b> 
+	   
 	</string>
 	<string name="teivaz_down">
         <b>Rune of energy loss</b>\n\n
@@ -445,7 +445,7 @@ the Mother and the Crone.
     </string>						
 	<string name="sowelu_wd">
 	    <b>Rune of integrity</b> 
-	    The need to achieve integrity
+	   
 	</string>
 	<string name="sowelu">
         <b>Rune of integrity</b>\n\n
@@ -465,8 +465,8 @@ the Mother and the Crone.
   There is a danger of being misled.        
     </string>
 	<string name="laguz_up_wd">
-	    <b>Rune of intuition</b>\n 
-	    Need to trust their instincts
+	    <b>Rune of intuition</b> 
+	   
 	</string>
     <string name="laguz_up">
         <b>Rune of intuition</b>\n\n
@@ -485,8 +485,8 @@ uncomfortable situations.
 This Rune represents a sailor, a lawyer, or a fisherman.
     </string>
     <string name="laguz_down_wd">
-        <b>Rune of warning</b>\n
-         Warning of the danger of failure
+        <b>Rune of warning</b>
+       
 	</string>
 	<string name="laguz_down">
         <b>Rune of warning</b>\n\n
@@ -497,8 +497,8 @@ This Rune represents a sailor, a lawyer, or a fisherman.
 		Stoppage can lead to stunted growth, withering or poverty.
     </string>
     <string name="inguz_wd">
-        <b>Rune of completion</b>\n 
-        Talking about getting rid of the old
+        <b>Rune of completion</b> 
+       
 	</string>
     <string name="inguz">
         <b>Rune of completion</b>\n\n
@@ -519,8 +519,8 @@ This Rune represents a sailor, a lawyer, or a fisherman.
         for becoming disassociated from the world of nature.
     </string>
     <string name="othilia_up_wd">
-        <b>Rune of termination</b>\n 
-        Discard outdated
+        <b>Rune of termination</b> 
+       
 	</string>
     <string name="othilia_up">
         <b>Rune of termination, acquisition</b>\n\n
@@ -536,8 +536,8 @@ This Rune represents a sailor, a lawyer, or a fisherman.
    	whole group of people who will be in harmony with you.     
     </string>
     <string name="othilia_down_wd">
-        <b>Rune of loss</b>\n 
-        Possible losses
+        <b>Rune of loss</b>
+       
 	</string>
     <string name="othilia_down">
         <b>Rune loss of flexibility requirements</b>\n\n
@@ -551,8 +551,8 @@ This Rune represents a sailor, a lawyer, or a fisherman.
     	misery, homelessness, loneliness or even slavery.    
     </string>
     <string name="dagaz_wd">
-        <b>Rune of breakthrough</b>\n 
-        Proceed with confidence
+        <b>Rune of breakthrough</b> 
+       
 	</string>
     <string name="dagaz">
         <b>Rune of breakthrough</b>\n\n
@@ -578,8 +578,8 @@ This Rune represents a sailor, a lawyer, or a fisherman.
   for it, rather than fear it.       
     </string>
     <string name="weird_wd">
-        <b>Rune of Odin</b>\n 
-        The emptiness, the end and the beginning of everything.
+        <b>Rune of Odin</b> 
+       
 	</string>
     <string name="weird">
         <b>Руна Одина</b>\n\n
@@ -597,8 +597,8 @@ This Rune represents a sailor, a lawyer, or a fisherman.
 		 The only danger from this Rune is that of fear of change.
     </string>
     <string name="eihwaz_wd">
-        <b>Rune of delay</b>\n 
-        There may be obstacles
+        <b>Rune of delay</b>
+       
 	</string>
     <string name="eihwaz">
 		<b>Rune of delay</b>\n\n
@@ -616,8 +616,8 @@ Even they, however, may help us in our
 progress toward the light of inner wisdom. 
 </string>
 	<string name="thurisaz_wd">
-	    <b>Rune of the gate</b>\n 
-	    Wait
+	    <b>Rune of the gate</b> 
+	   
 	</string>
 	<string name="thurisaz_up">
 		<b>Rune of the gate</b>\n\n
@@ -635,8 +635,8 @@ progress toward the light of inner wisdom.
  		and know that in so doing, you will be doing the right action.
   	</string>
 	<string name="thurisaz_down_wd">
-	    <b>Rune of weakness</b>\n 
-	    It is necessary to understand the situation
+	    <b>Rune of weakness</b>
+	   
 	</string>
 	<string name="thurisaz_down">
 		<b>Rune of weakness</b>\n\n
