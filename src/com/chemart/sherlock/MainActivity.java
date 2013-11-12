@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		//выводим сообщение о выборе руны
-		Toast.makeText(MainActivity.this, "Выберите руну", Toast.LENGTH_LONG).show();
+		Toast.makeText(MainActivity.this, R.string.choise, Toast.LENGTH_LONG).show();
 	}
 	
 	public void onClick(View v)
@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		//Прописываем в меню пункт Выход
-		menu.add(0, MENU_QUIT_ID, 0, "Выход");
+		menu.add(0, MENU_QUIT_ID, 0, R.string.quit);
 		return super.onCreateOptionsMenu(menu);
 		
 	}

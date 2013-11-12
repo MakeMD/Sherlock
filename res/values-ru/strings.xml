@@ -730,6 +730,49 @@
 		и задуматься над ней - необходимо. 
   	</string>
     <!-- Конец описания рунн -->
+    <string name ="d_algiz_up">Альгиз</string>
+    <string name ="d_algiz_down">Альгиз перевернутое</string>
+    <string name ="d_ansuz_up">Ансуз</string>
+    <string name ="d_ansuz_down">Ансуз перевернутое</string>
+    <string name ="d_berkana_up">Беркана</string>
+    <string name ="d_berkana_down">Беркана перевернутое</string>
+    <string name ="d_dagaz">Дагаз</string>
+    <string name ="d_ehwaz_up">Эваз</string>
+    <string name ="d_ehwaz_down">Эваз перевернутое</string>
+    <string name ="d_eihwaz">Эйваз</string>
+    <string name ="d_fehu_up">Феу</string>
+    <string name ="d_fehu_down">Феу перевернутое</string>
+    <string name ="d_gebo">Гебо</string>
+    <string name ="d_hagalaz">Хагалаз</string>
+    <string name ="d_inguz">Ингуз</string>
+    <string name ="d_isa">Иса</string>
+    <string name ="d_jera">Йера</string>
+    <string name ="d_kano_up">Кано</string>
+    <string name ="d_kano_down">Кано перевернутое</string>
+    <string name ="d_laguz_up">Лагуз</string>
+    <string name ="d_laguz_down">Лагуз перевернутое</string>
+    <string name ="d_mannaz_up">Манназ</string>
+    <string name ="d_mannaz_down">Манназ перевернутое</string>
+    <string name ="d_nauthiz_up">Наутиз</string>
+    <string name ="d_nauthiz_down">Наутиз перевернутое</string>
+    <string name ="d_othilia_up">Отила</string>
+    <string name ="d_othilia_down">Отила перевернутое</string>
+    <string name ="d_perth_up">Перт</string>
+    <string name ="d_perth_down">Перт перевернутое</string>
+    <string name ="d_raido_up">Райдо</string>
+    <string name ="d_raido_down">Райдо</string>
+    <string name ="d_sowelu">Соулу</string>
+    <string name ="d_teivaz_up">Тэйваз</string>
+    <string name ="d_teivaz_down">Тэйваз перевернутое</string>
+    <string name ="d_thurisaz_up">Турисаз</string>
+    <string name ="d_thurisaz_down">Турисаз перевернутое</string>
+    <string name ="d_uruz_up">Уруз</string>
+    <string name ="d_uruz_down">Уруз</string>
+    <string name ="d_weird">Один</string>
+    <string name ="d_wunjo_up">Вуньо</string>
+    <string name ="d_wunjo_down">Вуньо перевернутое</string>
+    
+    <string name="quit">Выход</string>
     <string name="choise">Выберите руну</string>
     <drawable name="text_color">#ffffff</drawable>
     <string name="ImageView">Image</string>

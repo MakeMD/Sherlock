@@ -26,7 +26,6 @@
         android:shadowDx="1"
         android:shadowDy="1"
         android:shadowRadius="2"
-        android:text="@string/wunjo_down_wd"
         android:textColor="@drawable/text_color" />
 
     <ImageView
@@ -49,7 +48,6 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
-        android:src="@drawable/wunjo_wd" 
-        android:contentDescription="@string/ImageView"/>
+        android:contentDescription="@string/ImageView" />
 
 </RelativeLayout>

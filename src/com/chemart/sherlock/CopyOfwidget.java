@@ -14,7 +14,7 @@ import android.content.Intent;
 import android.util.Log;
 import android.widget.RemoteViews;
 
-	public class widget extends AppWidgetProvider {
+	public class CopyOfwidget extends AppWidgetProvider {
 	  final String UPDATE_ALL_WIDGETS = "update_all_widgets";
 	  final String LOG_TAG = "myLogs";
 	  public static ComponentName thisWidget;
@@ -25,7 +25,7 @@ import android.widget.RemoteViews;
 	    super.onEnabled(context);
 	    //формируем свой бродкаст для перехвата системного и подмены на свой
 	    Log.d(LOG_TAG, "onEnabled");
-	    Intent intent = new Intent(context, widget.class);
+	    Intent intent = new Intent(context, CopyOfwidget.class);
 	    intent.setAction(UPDATE_ALL_WIDGETS);
 	    PendingIntent pIntent = PendingIntent.getBroadcast(context, 0, intent, 0);
 	    //обновление виджета раз в 24 часа
@@ -53,7 +53,7 @@ import android.widget.RemoteViews;
 	  public void onDisabled(Context context) {
 	    super.onDisabled(context);
 	    Log.d(LOG_TAG, "onDisabled");
-	    Intent intent = new Intent(context, widget.class);
+	    Intent intent = new Intent(context, CopyOfwidget.class);
 	    intent.setAction(UPDATE_ALL_WIDGETS);
 	    PendingIntent pIntent = PendingIntent.getBroadcast(context, 0, intent, 0);
 	    AlarmManager alarmManager = (AlarmManager) context
@@ -82,7 +82,7 @@ import android.widget.RemoteViews;
 		// TODO Auto-generated method stub
 		    final Random myRandom = new Random();
 		    RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.widget_activity_main);
-		    thisWidget = new ComponentName(context, widget.class);
+		    thisWidget = new ComponentName(context, CopyOfwidget.class);
 		    //генерируем андомное число
 		    int i = myRandom.nextInt(41);
 		    

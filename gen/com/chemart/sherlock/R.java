@@ -144,11 +144,11 @@ public final class R {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int Description=0x7f060058;
-        public static final int ImageView=0x7f060057;
-        public static final int Runa_description=0x7f06005b;
-        public static final int Runa_name=0x7f06005a;
-        public static final int Runas=0x7f060059;
+        public static final int Description=0x7f060082;
+        public static final int ImageView=0x7f060081;
+        public static final int Runa_description=0x7f060085;
+        public static final int Runa_name=0x7f060084;
+        public static final int Runas=0x7f060083;
         public static final int action_settings=0x7f060001;
         public static final int activity_second=0x7f060002;
         public static final int algiz_down=0x7f060013;
@@ -164,15 +164,58 @@ public final class R {
         public static final int berkana_down_wd=0x7f06003a;
         public static final int berkana_up=0x7f060039;
         public static final int berkana_up_wd=0x7f060038;
+        public static final int choise=0x7f06007f;
+        public static final int d_algiz_down=0x7f060057;
         /**  Конец описания рунн 
+ Конец описания рунн 
          */
-        public static final int choise=0x7f060056;
+        public static final int d_algiz_up=0x7f060056;
+        public static final int d_ansuz_down=0x7f060059;
+        public static final int d_ansuz_up=0x7f060058;
+        public static final int d_berkana_down=0x7f06005b;
+        public static final int d_berkana_up=0x7f06005a;
+        public static final int d_dagaz=0x7f06005c;
+        public static final int d_ehwaz_down=0x7f06005e;
+        public static final int d_ehwaz_up=0x7f06005d;
+        public static final int d_eihwaz=0x7f06005f;
+        public static final int d_fehu_down=0x7f060061;
+        public static final int d_fehu_up=0x7f060060;
+        public static final int d_gebo=0x7f060062;
+        public static final int d_hagalaz=0x7f060063;
+        public static final int d_inguz=0x7f060064;
+        public static final int d_isa=0x7f060065;
+        public static final int d_jera=0x7f060066;
+        public static final int d_kano_down=0x7f060068;
+        public static final int d_kano_up=0x7f060067;
+        public static final int d_laguz_down=0x7f06006a;
+        public static final int d_laguz_up=0x7f060069;
+        public static final int d_mannaz_down=0x7f06006c;
+        public static final int d_mannaz_up=0x7f06006b;
+        public static final int d_nauthiz_down=0x7f06006e;
+        public static final int d_nauthiz_up=0x7f06006d;
+        public static final int d_othilia_down=0x7f060070;
+        public static final int d_othilia_up=0x7f06006f;
+        public static final int d_perth_down=0x7f060072;
+        public static final int d_perth_up=0x7f060071;
+        public static final int d_raido_down=0x7f060074;
+        public static final int d_raido_up=0x7f060073;
+        public static final int d_sowelu=0x7f060075;
+        public static final int d_teivaz_down=0x7f060077;
+        public static final int d_teivaz_up=0x7f060076;
+        public static final int d_thurisaz_down=0x7f060079;
+        public static final int d_thurisaz_up=0x7f060078;
+        public static final int d_uruz_down=0x7f06007b;
+        public static final int d_uruz_up=0x7f06007a;
+        public static final int d_weird=0x7f06007c;
+        public static final int d_wunjo_down=0x7f06007e;
+        public static final int d_wunjo_up=0x7f06007d;
         public static final int dagaz=0x7f06004d;
         public static final int dagaz_wd=0x7f06004c;
         public static final int ehwaz_down=0x7f060007;
         public static final int ehwaz_down_wd=0x7f060006;
         public static final int ehwaz_up=0x7f060005;
         /**   Описание рун 
+  Описание рун 
          */
         public static final int ehwaz_up_wd=0x7f060004;
         public static final int eihwaz=0x7f060051;
@@ -216,6 +259,7 @@ public final class R {
         public static final int perth_down_wd=0x7f06002a;
         public static final int perth_up=0x7f060029;
         public static final int perth_up_wd=0x7f060028;
+        public static final int quit=0x7f060080;
         public static final int raido_down=0x7f060017;
         public static final int raido_down_wd=0x7f060016;
         public static final int raido_up=0x7f060015;
@@ -226,7 +270,7 @@ public final class R {
         public static final int teivaz_down_wd=0x7f06003e;
         public static final int teivaz_up=0x7f06003d;
         public static final int teivaz_up_wd=0x7f06003c;
-        public static final int third_activity=0x7f06005c;
+        public static final int third_activity=0x7f060086;
         public static final int thurisaz_down=0x7f060055;
         public static final int thurisaz_down_wd=0x7f060054;
         public static final int thurisaz_up=0x7f060053;
