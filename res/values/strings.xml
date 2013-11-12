@@ -692,6 +692,7 @@ progress toward the light of inner wisdom.
     <string name="quit">Quit</string>
     
     <drawable name="text_color">#ffffff</drawable>
+    <string name="about">About</string>
     <string name="ImageView">Image</string>
     <string name="Description">Description</string>
     <string name="Runas">runas activity</string>

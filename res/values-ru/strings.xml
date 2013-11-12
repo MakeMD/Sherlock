@@ -733,6 +733,7 @@
     <string name ="d_wunjo_down">Вуньо перевернутое</string>
     
     <string name="quit">Выход</string>
+    <string name="about">Версия</string>
     <string name="choise">Выберите руну</string>
     <drawable name="text_color">#ffffff</drawable>
     <string name="ImageView">Image</string>

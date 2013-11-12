@@ -144,11 +144,12 @@ public final class R {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int Description=0x7f060082;
-        public static final int ImageView=0x7f060081;
-        public static final int Runa_description=0x7f060085;
-        public static final int Runa_name=0x7f060084;
-        public static final int Runas=0x7f060083;
+        public static final int Description=0x7f060083;
+        public static final int ImageView=0x7f060082;
+        public static final int Runa_description=0x7f060086;
+        public static final int Runa_name=0x7f060085;
+        public static final int Runas=0x7f060084;
+        public static final int about=0x7f060081;
         public static final int action_settings=0x7f060001;
         public static final int activity_second=0x7f060002;
         public static final int algiz_down=0x7f060013;
@@ -270,7 +271,7 @@ public final class R {
         public static final int teivaz_down_wd=0x7f06003e;
         public static final int teivaz_up=0x7f06003d;
         public static final int teivaz_up_wd=0x7f06003c;
-        public static final int third_activity=0x7f060086;
+        public static final int third_activity=0x7f060087;
         public static final int thurisaz_down=0x7f060055;
         public static final int thurisaz_down_wd=0x7f060054;
         public static final int thurisaz_up=0x7f060053;
