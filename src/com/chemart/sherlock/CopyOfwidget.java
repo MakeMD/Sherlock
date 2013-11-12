@@ -33,22 +33,14 @@ import android.widget.RemoteViews;
 	        .getSystemService(Context.ALARM_SERVICE);
 	    alarmManager.setRepeating(AlarmManager.RTC, System.currentTimeMillis(),
 	    86400000, pIntent);
-<<<<<<< HEAD
-	    }
-=======
 	  }
->>>>>>> a356526c0e96c226df06877966ab3904fb65fec1
 
 	  @Override
 	  public void onUpdate(Context context, AppWidgetManager appWidgetManager,
 	      int[] appWidgetIds) {
 	    super.onUpdate(context, appWidgetManager, appWidgetIds);
 	    Log.d(LOG_TAG, "onUpdate " + Arrays.toString(appWidgetIds));
-<<<<<<< HEAD
 	    updateWidget(context, appWidgetManager, 0);
-=======
-	 
->>>>>>> a356526c0e96c226df06877966ab3904fb65fec1
 	  }
 
 	  @Override
