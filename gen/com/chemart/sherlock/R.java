@@ -127,10 +127,11 @@ public final class R {
         public static final int ImageButton23=0x7f090009;
         public static final int ImageButton24=0x7f090017;
         public static final int RelativeLayout1=0x7f090000;
-        public static final int action_settings=0x7f09001e;
+        public static final int action_settings=0x7f09001f;
         public static final int imageButton1=0x7f09000e;
         public static final int imageView1=0x7f09001a;
         public static final int imageViewInWidget=0x7f09001c;
+        public static final int textView1=0x7f09001e;
         public static final int textView2=0x7f09001d;
         public static final int textViewInWidget=0x7f09001b;
     }
