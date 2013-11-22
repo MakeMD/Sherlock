@@ -6,6 +6,8 @@ import java.util.Random;
 
 
 
+
+
 //import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -13,6 +15,8 @@ import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.util.Log;
 import android.widget.RemoteViews;
 
@@ -21,7 +25,9 @@ import android.widget.RemoteViews;
 	  final String LOG_TAG = "myLogs";
 	  public static ComponentName thisWidget;
 	  public static RemoteViews remoteViews;
-	 
+	  //final static String ACTION_CHANGE = "com.chemart.sherlock.change_count";
+
+	  SharedPreferences sp;
 	 // int i = myRandom.nextInt(41);
 	  
 	    
@@ -38,14 +44,19 @@ import android.widget.RemoteViews;
 	      int[] appWidgetIds) {
 	    super.onUpdate(context, appWidgetManager, appWidgetIds);
 	    Log.d(LOG_TAG, "onUpdate " + Arrays.toString(appWidgetIds));
-	    RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.widget_activity_main);
-	    thisWidget = new ComponentName(context, widget.class);
-	    AppWidgetManager manager = AppWidgetManager.getInstance(context);
+	    //RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.widget_activity_main);
+	    
 	    //генерируем андомное число
 	    //final Random myRandom = new Random(); 
 	    //i = myRandom.nextInt(41); 
 	    //final Random myRandom = new Random(); 
-	    int i = (new Random().nextInt(41));
+	    int i =0;
+	    i = (new Random().nextInt(41));
+	    RemoteViews remoteViews = new RemoteViews(context.getPackageName(),
+	            R.layout.widget_activity_main);
+	    Log.w(LOG_TAG, "i="+String.valueOf(i));
+	    thisWidget = new ComponentName(context, widget.class);
+	    AppWidgetManager manager = AppWidgetManager.getInstance(context); 
 	   // remoteViews.setTextViewText(R.id.textView2, String.valueOf(i));
 	//   manager.updateAppWidget(thisWidget, remoteViews);
 	    //делаем выбор значений remoteViews на основе рандомного числа
@@ -266,7 +277,7 @@ break;
 	    
 	    remoteViews2.setOnClickPendingIntent(R.id.textViewInWidget, configPendingIntent);
 	    
-	    appWidgetManager.updateAppWidget(appWidgetIds, remoteViews2);
+	   manager.updateAppWidget(thisWidget, remoteViews2);
 	    
 	  }
 
@@ -287,6 +298,11 @@ break;
 	  public void onReceive(Context context, Intent intent) {
 	    super.onReceive(context, intent);
 	    Log.d(LOG_TAG, "onReceive");
+	
+	    RemoteViews remoteViews = new RemoteViews(context.getPackageName(),
+	            R.layout.widget_activity_main);
+	    AppWidgetManager manager = AppWidgetManager.getInstance(context); 
+	    manager.updateAppWidget(thisWidget, remoteViews);
 	  }
 
 	
