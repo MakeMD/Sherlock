@@ -298,11 +298,16 @@ break;
 	  public void onReceive(Context context, Intent intent) {
 	    super.onReceive(context, intent);
 	    Log.d(LOG_TAG, "onReceive");
-	
-	    RemoteViews remoteViews = new RemoteViews(context.getPackageName(),
-	            R.layout.widget_activity_main);
 	    AppWidgetManager manager = AppWidgetManager.getInstance(context); 
-	    manager.updateAppWidget(thisWidget, remoteViews);
+	    thisWidget = new ComponentName(context, widget.class);
+	    RemoteViews remoteViews3 = new RemoteViews(context.getPackageName(), R.layout.widget_activity_main);
+	    //Intent configIntent2 = new Intent(context, ThirdActivity.class);
+	    
+	    //PendingIntent configPendingIntent = PendingIntent.getActivity(context, 0, configIntent2, 0);
+	    
+	    //remoteViews3.setOnClickPendingIntent(R.id.textViewInWidget, configPendingIntent);
+	    
+	   manager.updateAppWidget(thisWidget, remoteViews3);
 	  }
 
 	
